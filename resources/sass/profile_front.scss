@@ -1,0 +1,29 @@
+body {
+  color: #000;
+}
+
+.header {
+  .logo {
+      width: 120px;
+      height: 82px;
+  }
+}
+
+
+.profiles{
+    .profile{
+        .name{
+          font-size:1.2em;
+          font-weight:bold;
+        }
+        .gender{
+            font-size:0.8em;
+        }
+        .hobby{
+          font-size:0.8em;
+        }
+        .introduction{
+            font-size:0.8em;
+        }
+     }
+}

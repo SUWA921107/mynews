@@ -35,6 +35,10 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
     });
 });
 
+Route::group(['prefix' => 'profile'], function() {
+   Route::get('/', 'ProfileController@index'); 
+});
+
 
 Auth::routes();
 
